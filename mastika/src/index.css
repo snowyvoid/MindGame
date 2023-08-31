@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* generate font */
+body{
+  font-family: 'dancing-script';
+  font-weight: 500;
+    src: url('../fonts/dancing-script-v16-latin-regular.eot'); /* IE9 Compat Modes */
+}

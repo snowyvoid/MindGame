@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link rel="stylesheet" href="/mastika/src/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Lugrasimo&display=swap');
+
+
+        .hero {
+            background-size: 100% 100%;
+        }
+
+        .url1 {
+            background-size: 100% 100%;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="home"
+    class="w-full overflow-x-hidden relative font-[url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Lugrasimo&display=swap')]">
+
+
+
+    <!-- <nav class="bg-navbg z-100 fixed">
+        <div style="background:linear-gradient(180deg, #f4f8ff, #fff0)"
+            class="absolute w-full h-[150px] top-0 -z-50"></div>
+        <div class="relative lg:[1300px]
+         w-full mx-auto flex items-center ">
+            <a href="/" class="cursor-pointer py-1 pr-7 ">
+
+                <a href="#home" class="flex  md:items-center  justify-center"> <img src="./images/navlogo.svg" width="161px"
+                        height="10px" class="-mt-1 ml-10 text-colorimg" alt="">
+                </a>
+
+
+
+
+            </a>
+            <ul class="flex ml-10 space-x-6">
+                <li class="text-[#141b2c] font-mulish my-4  cursor-pointer
+         relative group transition-all duration-200 hidden lg:block ">
+                    <a href="#">Psychotherapy
+                    </a>
+
+
+                </li>
+                <li class="text-[#141b2c] font-mulish my-4 hidden lg:block cursor-pointer
+        relative group transition-all duration-200 ">
+                    <a href="#">Self-Care</a>
+
+
+                <li class="text-[#141b2c] font-mulish  my-4 hidden lg:block cursor-pointer
+         relative group transition-all duration-200 ">
+                    <a href="#">Science</a>
+
+
+                <li class="text-[#141b2c] font-mulish  my-4  lg:block cursor-pointer
+         relative group transition-all duration-200 ">
+                    <a href="#">For Organizations</a>
+
+
+
+
+            </ul>
+            <div class="  flex space-x-6 ml-[380px]  pt-3">
+                <button class=" py-3 my-4 px-5 text-[#141b2c] 
+         leading-[27px]  text-[18px]">Log in</button>
+                <button class=" py-3 my-4 px-4 
+        rounded-[100px] font-bold text-sm bg-buttoncolor text-white  text-[16px] leading-[20px] transition-all duration-200 
+        hover:text-lightBlue500  ">
+                    Do Our Self-Test
+
+
+
+
+                </button>
+
+            </div>
+        </div>
+    </nav> -->
+    <!-- hero section -->
+    <!-- <section
+        class=" bg-[url(/images/header-hero.408291f9.png)] pb-[300px]  hero bg-no-repeat w-full bg-cover relative -mt-[30px] -z-10 py-52 ">
+      
+        <div class="flex flex-col gap-y-5 w-[800px] ml-[200px]">
+            <h2 class="text-[#404659] font-mulish leading-[1.2] text-[40px] font-extrabold">
+                Mental Health Starts <br> with You
+            </h2>
+            <p class="text-[#141b2c] font-mulish text-xl">
+                MindDoc accompanies you as you work on your mental <br> health in pursuit of a better quality of
+                life.
+            </p>
+            <button class=" py-4 my-4 px-6 
+            rounded-[100px] font-bold text-sm bg-buttoncolor text-white w-fit text-[16px] leading-[20px] transition-all duration-200 
+            hover:text-lightBlue500  ">
+                Do Our Self-Test </button>
+
+        </div>
+
+    </section> -->
+    <!-- fade section -->
+    <!-- <section class="w-full  bg-[#ebe1dd] pt-[46px] pb-[40px]">
+        <div class="flex space-x-3 ml-[200px]">
+            <img src="./images/fadesectionimg.png" width="91px" alt="">
+            <p>A service of Germany's leading <br> psychosomatic hospital group</p>
+        </div>
+
+    </section> -->
+    <!-- seervice section
+    <section class="w-full pt-[60px] h-full relative">
+
+        <div class="mx-auto w-11/12 max-w-[1080px]  relative">
+
+            <h2 class="text-[#404659] text-2xl pb-5 font-bold  ">Our Services</h2>
+     
+            <div class="flex flex-row justify-between  mb-16 ">
+
+
+
+                <div
+                    class="bg-[url(./images/servicesectionurl.png)] w-[520px] rounded-[20px] -z-10 relative servicecard pb-3  pl-5 pt-40 h-[220px]">
+                    <div style="background:linear-gradient(0deg,#000,transparent 94.32%)"
+                        class="absolute w-[520px] h-[100px] rounded-[20px] left-0 bottom-0 -z-50"></div>
+                    <h2 class="text-white text-[20px] -z-10 font-4xl   ">Video-based psychotherapy</h2>
+                </div>
+            
+                <div
+                    class="bg-[url(./images/servicesectonurl2.png)] rounded-[20px] relative servicecard pb-3 -z-10 pl-5 pt-40 w-[520px] h-[220px]">
+                    <div style="background:linear-gradient(0deg,#000,transparent 94.32%)"
+                        class="absolute w-[520px] h-[100px] rounded-[20px] left-0 bottom-0 -z-50"></div>
+                    <h2 class="text-white text-[20px] font-4xl -z-10 ">
+                        App-based self-care</h2>
+                </div>
+            </div>
+        
+            <h2 class="text-[#404659] text-[40px] leading-[48px] pb-[16px] font-mulish">
+                Psychotherapy without <br> the Wait
+            </h2>
+            <p class="mb-[40px] text-[20px] leading-[30px] font-mulish text-[#141b2c]">
+                Our video-based psychotherapy services are open to <br>
+                adults in Germany for whom this type of treatment
+                is the <br> right option. The cost is covered by many statutory and <br> private insurances.
+            </p>
+          
+            <div class="flex flex-row justify-between mb-16 ">
+               
+                <div class="bg-[url(./images/servicesection3.png)] -z-10 relative rounded-[20px] bg-no-repeat bg-cover 
+                w-[340px] h-[469px] pl-5 gap-x-5 pb-5 flex flex-row items-end">
+
+                    <div style="background:linear-gradient(0deg,#000,transparent 94.32%)"
+                        class="absolute w-[340px] h-[200px] rounded-[20px] left-0 bottom-0 -z-50"></div>
+
+                    <h2 class="text-white text-[50px] font-bold -z-10 font-mulish leading-[75px] ">1</h2>
+                    <h3 class="text-[18px] font-bold leading-[27px] -z-10 font-mulish text-white">Book an in-person
+                        <br>
+                        consultation
+                    </h3>
+                </div>
+                
+                <div class="bg-[url(./images/servicesection4.jpg)] rounded-[20px] relative -z-10 rounded-20px bg-no-repeat bg-cover
+                     w-[340px] h-[469px] flex pl-5 gap-x-5 pb-5 flex-row items-end">
+
+                    <div style="background:linear-gradient(0deg,#000,transparent 94.32%)"
+                        class="absolute w-[340px] h-[200px] rounded-[20px] left-0 bottom-0 -z-50"></div>
+
+
+                    <h2 class="text-white text-[50px] font-bold -z-10 font-mulish leading-[75px] ">2</h2>
+                    <h3 class="text-[18px] leading-[27px] font-bold -z-10 font-mulish text-white">Schedule regular
+                        <br> appointments
+                    </h3>
+                </div>
+                
+                <div class="bg-[url(./images/servicesection5.png)] relative bg-no-repeat bg-cover -z-10 w-[340px] 
+                    h-[469px] flex flex-row pl-5 gap-x-5 rounded-[20px] pb-5 items-end">
+
+                    <div style="background:linear-gradient(0deg,#000,transparent 94.32%)"
+                        class="absolute w-[340px] h-[200px] rounded-[20px]  left-0 bottom-0 -z-50"></div>
+
+                    <h2 class="text-white text-[50px] -z-10 font-mulish font-bold leading-[75px] ">3</h2>
+                    <h3 class="text-[18px] leading-[27px] font-bold -z-10 font-mulish text-white">Start video-based
+                        <br>
+                        psychotherapy
+                    </h3>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+   
+    <section class="relative  w-11/12 max-w-[1080px] mx-auto -z-50">
+
+        <div class="mt-[60px]  mb-32 flex flex-row justify-between py-[34px] pr-[28px]
+             pl-[24px] bg-[#f9f4f2] border -z-10 border-[#e2d8d3]  rounded-[20px] ">
+
+       
+            <div class="flex space-x-4 items-center -z-9 ">
+                <img src="./images/learnmore.svg" alt="">
+                <div>
+                    <h2 class="text-[20px] leading-[28px]  text-[#141414] font-mulish font-bold">Do you have
+                        questions about therapy at MindDoc?</h2>
+                    <p class="text-[#141b2c] text-[18px]  font-mulish leading-[27px]">Here, you'll find more
+                        information.</p>
+                </div>
+
+            </div>
+         
+            <button class=" py-2 my-6 px-6 
+        rounded-[100px] font-bold text-sm bg-buttoncolor cursor-pointer text-white  text-[16px] leading-[20px] transition-all duration-200 
+        hover:text-lightBlue500  ">
+                Learn More</button>
+
+
+        </div>
+    </section> -->
+
+    <!-- A Broad Treatment Spectrum -->
+    <!-- <section class="relative w-11/12 max-w-[1080px] mx-auto -z-50">
+        <div>
+            <h2 class="text-[40px] leading-[48px] pb-[16px] text-[#404659] font-mulish font-bold">
+                A Broad Treatment <br> Spectrum
+            </h2>
+            <p class="mb-[40px] text-[20px] leading-[30px] text-[#141b2c] font-mulish">
+                We support you in coping with mental illnesses including <br> depression, anxiety disorders,
+                obsessive-compulsive <br> disorders, and eating disorders.
+            </p>
+            
+            <div class="flex justify-between mb-16">
+                
+                <div class="w-[250px] h-[345px] flex items-end justify-center pb-5 bg-[url(./images/faceurl.png)] rounded-[20px]
+                         bg-no-repeat bg-cover">
+                    <h2 class="text-[22px] text-[#fff] font-mulish font-bold leading-[26px]">Face Your Fears</h2>
+
+                </div>
+               
+                <div class="w-[250px] h-[345px] flex items-end justify-center pb-5 bg-[url(./images/getactiveurl.png)] rounded-[20px]
+                        bg-no-repeat bg-cover">
+                    <h2 class="text-[22px] text-[#fff] font-mulish font-bold leading-[26px]">
+                        Get Active</h2>
+
+                </div>
+            
+                <div class="w-[250px] h-[345px] flex flex-col  justify-end  pb-5 bg-[url(./images/stoplooping.png)] rounded-[20px]
+                        bg-no-repeat bg-cover">
+                    <h2 class="text-[22px]  text-[#fff]   mx-auto font-mulish font-bold leading-[26px]">
+                        Stop Looping </h2>
+                    <h2 class="text-[22px] text-[#fff] mx-auto font-mulish font-bold leading-[26px]">Thoughts</h2>
+
+                </div>
+            
+                <div class="w-[250px] h-[345px] flex items-end justify-center pb-5 bg-[url(./images/eat.png)] rounded-[20px]
+                        bg-no-repeat bg-cover">
+                    <h2 class="text-[22px] text-[#fff] font-mulish font-bold leading-[26px]">
+                        Eat Intuitively</h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section class=" relative w-11/12  max-w-[1080px]   -z-50 ">
+        <img src="./images/ball.png" alt="" class="-left[34%] top-[10px]  w-[75%] absolute  -z-10">
+
+        <div class="pl-[14%] pt-[15%]">
+
+            <h2 class="font-mulish text-[40px] leading-[48px] font-bold pb-[16px] text-[#404659]">Effective Help for
+                Your <br> Well-being</h2>
+            <p class="mb-[24px] text-[20px] leading-[30px] font-mulish text-[#141b2c]">
+                A close integration of science and practice is important to <br> us. We work with leading research
+                institutions to <br> continuously improve the quality of our services.
+
+
+            </p>
+            <div class="cursor-pointer group">
+                <button class=" py-3 my-4 px-4 
+                    rounded-[100px] font-bold text-sm cursor-pointer bg-[#ebe1dd] group-hover:bg-buttoncolor text-[#4d7f7f]  text-[16px] leading-[20px] transition-all duration-200 
+                    hover:text-lightBlue500 ">
+                    More about the efficacy </button>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+        <div class="bg-[url(./images/ballsection1.png)]  relative mt-[40px] z-10 ml-[15%] url1 mb-11 w-[100%]
+        h-[540px] rounded-[20px] flex items-end pl-7 pb-10">
+            <div style="background:linear-gradient(0deg,#000,transparent 94.32%)"
+                class="absolute w-[100%] h-[200px] rounded-[20px] left-0 bottom-0 -z-50"></div>
+            <h2 class="text-[40px] leading-[48px] text-[#fff] font-mulish  font-bold">Digital Psychotherapy <br> and
+                Self-care for You</h2>
+        </div>
+
+    </section>
+
+    <section class="relative  w-11/12 max-w-[1080px] mx-auto -z-50">
+
+        <div class="mt-[60px]  mb-32 flex flex-row justify-between py-[34px] pr-[28px]
+             pl-[24px] bg-[#f9f4f2] border -z-10 border-[#e2d8d3]  rounded-[20px] ">
+
+    
+            <div class="flex space-x-4 items-center -z-9 ">
+                <img src="./images/cooperatinginsurancesimg.svg" alt="">
+                <div>
+                    <h2 class="text-[20px] leading-[28px]  text-[#141414] font-mulish font-bold">
+                        Covered by many health insurance providers</h2>
+                    <p class="text-[#141b2c] text-[18px]  font-mulish leading-[27px]">
+                        Find out if your health insurance will cover the cost.</p>
+                </div>
+
+            </div>
+            
+            <button class=" py-2 my-6 px-6 
+        rounded-[100px] font-bold text-sm bg-buttoncolor cursor-pointer text-white  text-[16px] leading-[20px] transition-all duration-200 
+        hover:text-lightBlue500  ">
+                cooperating insurances</button>
+
+
+        </div>
+    </section>
+ 
+    <section class="relative w-11/12 max-w-[1080px] mx-auto -z-50">
+        <h2 class="text-[40px] leading-[48px] pb-[16px] text-[#404659] font-mulish font-bold">
+            Learn more about Mental <br> Health
+        </h2>
+        <p class="text-[#141b2c] text-[20px] leading-[30px] font-mulish mb-16">
+            Our clinical psychologists regularly write insightful <br> articles about mental health for our MindDoc
+            magazine.
+        </p>
+ 
+        <div class="flex relative justify-between  ">
+      
+            <div class="w-[50%]">
+                <img src="./images/learnmoreaboutmentalhealthimg1.png" alt="" class="rounded-[20px] ">
+                <p class="text-[18px] leading-[25px] mt-[20px] mb-[10px] text-[#141414] font-mulish font-extrabold">
+                    When Fear Becomes A Problem – Anxiety <br> Disorder and Depression</p>
+                <p class="text-[18px] leading-[27px] mb-[16px] font-mulish">Next to depression, anxiety disorders
+                    are among the <br> most common mental illness in western countries.</p>
+            </div>
+     
+            <div class="w-[50%]">
+                <img src="./images/learnmoreaboutmentalhealthim2.png" alt="" class="rounded-[20px]">
+                <p class="text-[18px] leading-[25px] mt-[20px] mb-[10px] text-[#141414] font-mulish font-extrabold">
+                    Too Much Stress at Work? Be Aware of These <br> Three Warning Signs!</p>
+                <p class="text-[18px] leading-[27px] mb-[16px] font-mulish">A free weekend or just a single day of
+                    hard-earned <br> relaxation can be so important to us. But are we able to <br> relax after all
+                    the hard work?</p>
+            </div>
+        </div>
+        <div class="cursor-pointer group">
+            <button class=" py-3 my-4 px-6 
+            rounded-[100px] font-bold text-sm cursor-pointer bg-[#ebe1dd] group-hover:bg-buttoncolor text-[#4d7f7f]  text-[16px] leading-[20px] transition-all duration-200 
+            hover:text-lightBlue500 ">
+                Show all </button>
+        </div>
+
+    </section>
+   
+    <section class="relative w-11/12 max-w-[1080px]">
+        <img src="./images/ball.png" alt="" class="-left[44%] top-[10px]  w-[75%] absolute  -z-10">
+
+
+
+        <div class="pl-[20%] pt-[10%]  ">
+
+
+            <h2 class=" text-[40px] leading-[48px] text-[#404659] font-mulish
+             font-bold pb-[16px]">Benefit with MindDoc</h2>
+
+        </div>
+      
+        <div class="flex justify-between w-full ml-[12%] mt-14">
+           
+            <div class="w-[25%] -z-10">
+                <img src="./images/benefitcard1.png" alt="">
+                <p class="mt-[34px] text-[18px] leading-[27px] mb-[16px] font-bold font-mulish">
+                    "The whole concept impressed <br> me and helped me immensely <br> quickly and effectively."
+                </p>
+                <p clacc="text-[14px] leading-[21px] font-mulish mt-[16px] text-[#000000]">MindDoc Patient</p>
+            </div>
+          
+            <div class="w-[25%] -z-10">
+                <img src="./images/benefitcard2.png" alt="">
+                <p class="mt-[34px] text-[18px] leading-[27px] mb-[16px] font-bold font-mulish">"Minddoc combines
+                    excellent <br> psychotherapy with flexibility <br> of time and space."</p>
+                <p clacc="text-[14px] leading-[21px] font-mulish mt-[16px] text-[#000000]">MindDoc Patient</p>
+            </div>
+        
+            <div class="w-[25%] -z-10">
+                <img src="./images/benefitcard3.png" alt="">
+                <p class="mt-[34px] text-[18px] leading-[27px] mb-[16px] font-bold font-mulish">"“So helpful. It is
+                    digging into <br> parts of brain and depression <br> that I haven't been able to <br> access.”"
+                </p>
+                <p clacc="text-[14px] leading-[21px] font-mulish mt-[16px] text-[#000000]">App User</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="relative w-11/12 max-w-[1080px] mb-11  -z-10 bg-[url(./images/qualityhealth.png)] bg-no-repeat 
+    h-[344px] mt-[150px] bg-cover mx-auto pl-[30px] pt-[35px]">
+        <div style="background:linear-gradient(0deg,#000,transparent 94.32%)"
+            class="absolute w-[30%] h-[200px] rounded-[20px] left-0 bottom-0 -z-50"></div>
+        <div class="flex flex-col ">
+            <h2 class="text-[40px] leading-[48px] text-[#fff] font-bold font-mulish pb-[16px]">
+                Quality Mental <br> Health Support</h2>
+            <p class="text-[18px] leading-[27px] text-[#fff] font-mulish mb-[16px]">We partner with companies,
+                universities, and health <br> insurance companies to help more people on their <br> mental health
+                journey.</p>
+            <button class=" py-3 my-4 px-8  
+            rounded-[100px] font-bold text-sm bg-buttoncolor cursor-pointer text-white w-fit text-[16px] leading-[20px] transition-all duration-200 
+            hover:text-lightBlue500  ">
+                Learn More
+
+
+
+
+            </button>
+        </div>
+    </section> -->
+    <!-- footer -->
+    <!-- <section class=" relative">
+        <div>
+            <img src="./images/footer-flowers-large.2f0e5da0.svg" alt="">
+
+        </div>
+        <div class="bg-[#4c7f7f] pt-[28px] pr-[20px]    w-[100%]">
+            <div class="justify-between flex">
+               
+                <div class="flex flex-col ml-[40px] w-[25%]">
+                    <img src="./images/footerlogo.svg" alt="" width="130px" class="cursor-pointer">
+                    <p class="text-[16px] leading-[28px] mt-[16px] mb-[26px] text-[#f6efed] font-mulish">Self-care
+                        for your mental health</p>
+                    <div class="flex gap-x-4">
+                        <a href="">
+                            <img src="./images/instalogo.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./images/tiktok.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./images/twitter.svg" alt="">
+
+                        </a>
+                        <a href="">
+                            <img src="./images/linkdin.svg" alt="">
+                        </a>
+
+                    </div>
+                </div>
+             
+                <div class="flex cursor-pointer flex-col   ">
+                    <h2 class="text-[18px] leading-[22px]
+text-[#f6efed] font-mulish font-bold">MindDoc App
+                    </h2>
+                    <img src="./images/appstore.png" alt="" width="170px" class="mt-6 mb-3">
+                    <img src="./images/playstore.png" alt="" width="170px">
+                </div>
+                
+                <div class="flex cursor-pointer flex-col gap-y-4">
+                    <h2 class="text-[18px] leading-[22px] text-[#f6efed] font-bold font-mulish">For Organizations
+                    </h2>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">For Businesses</p>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">For Universities</p>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">For Insurance Companies</p>
+                </div>
+                
+                <div class="flex flex-col cursor-pointer gap-y-4">
+                    <h2 class="text-[18px] leading-[22px] text-[#f6efed] font-bold font-mulish">MindDoc</h2>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">Science</p>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">Press</p>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">Costs</p>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">Career at MindDoc</p>
+
+                </div>
+               
+                <div class="flex cursor-pointer flex-col gap-y-4">
+                    <h2 class="text-[18px] leading-[22px] text-[#f6efed] font-bold font-mulish">Information</h2>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">Magazine</p>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">FAQs</p>
+                    <p class="text-[16px] leading-[24px] text-[#f6efed] font-mulish">Contact</p>
+                </div>
+            </div>
+            <div class="flex mt-28 mx-[40px] items-center   justify-between ">
+               
+                <div class="flex gap-x-4 mb-[16px] w-[22%]">
+                    <img src="./images/tuv-logo.0a5b1cd6.svg" alt="">
+                    <div class="flex flex-col ">
+                        <p class="text-[14px] leading-[21px] font-bold text-[#f6efed] font-mulish ">TÜV-certified according to</p>
+                        <p class="text-[14px] leading-[21px] font-bold text-[#f6efed] font-mulish ">ISO/IEC 27001</p>
+                        <a href="" class="text-[14px] leading-[21px] text-[#f6efed] font-mulish ">www.tuvsud.com/ms-zert</a>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h2 class="text-[18px] leading-[22px] text-[#f6efed] font-extrabold font-mulish">Legal</h2>
+                </div>
+                <div class="cursor-pointer">
+                    <h2 class="text-[18px] leading-[22px] text-[#f6efed]  font-mulish">Imprint</h2>
+                </div>
+                <div class="cursor-pointer">
+                    <h2 class="text-[18px] leading-[22px] text-[#f6efed]  font-mulish">Privacy Policy</h2>
+                </div>
+                <div class="cursor-pointer">
+                    <h2 class="text-[18px] leading-[22px] text-[#f6efed]  font-mulish">Terms and Conditions</h2>
+                </div>
+                <div class="cursor-pointer">
+                    <h2 class="text-[18px] leading-[22px] text-[#f6efed]  font-mulish">
+                        Medical Device
+                    </h2>
+                </div>
+                <div >
+                    <h2 class="text-[18px] leading-[22px]  text-[#f6efed]  font-mulish">© 2023 MindDoc Health GmbH</h2>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </section> -->
+
+</div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
